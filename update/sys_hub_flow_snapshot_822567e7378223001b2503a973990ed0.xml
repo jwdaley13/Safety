@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>safety_approval</internal_name>
+        <label_cache>[{"name":"f479493a-ab21-4eb8-8967-b2b884ebb69d.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Updated_1.current","label":"Trigger➛Issue Record","reference":"x_295541_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference"},{"name":"Updated_1.current.opened_by","label":"Trigger➛Issue Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_295541_safety_issue","column_name":"opened_by"},{"name":"b5cd0d4b-8010-487e-889f-2840d4cd8f0a.record","label":"2.1➛Issue Record","reference":"x_295541_safety_issue","reference_display":"Issue","type":"reference","base_type":"reference"},{"name":"b5cd0d4b-8010-487e-889f-2840d4cd8f0a.table_name","label":"2.1➛Issue Table","reference":"x_295541_safety_issue","reference_display":"Issue","type":"table_name","base_type":"table_name"},{"name":"1117abf0-92d3-453a-beb8-48e27e1229a9.record","label":"3.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"1117abf0-92d3-453a-beb8-48e27e1229a9.table_name","label":"3.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <master>true</master>
+        <name>Safety Approval</name>
+        <outputs/>
+        <parent_flow display_value="Safety Approval">214d5f6f374223001b2503a973990e30</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>jwdaley13</sys_created_by>
+        <sys_created_on>2018-12-04 18:21:39</sys_created_on>
+        <sys_id>822567e7378223001b2503a973990ed0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Safety Approval</sys_name>
+        <sys_package display_value="Safety" source="x_295541_safety">9a8f762b370223001b2503a973990ea8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">9a8f762b370223001b2503a973990ea8</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_822567e7378223001b2503a973990ed0</sys_update_name>
+        <sys_updated_by>jwdaley13</sys_updated_by>
+        <sys_updated_on>2018-12-04 18:21:39</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=822567e7378223001b2503a973990ed0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=822567e7378223001b2503a973990ed0"/>
+</record_update>

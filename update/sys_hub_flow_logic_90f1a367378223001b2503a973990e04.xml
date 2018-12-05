@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5cf1a367378223001b2503a973990e02</block>
+        <comment/>
+        <connected_to>db25d449-f342-477e-987a-f2a632428cc0</connected_to>
+        <display_text/>
+        <flow display_value="Safety Approval">214d5f6f374223001b2503a973990e30</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>jwdaley13</sys_created_by>
+        <sys_created_on>2018-12-04 18:07:37</sys_created_on>
+        <sys_id>90f1a367378223001b2503a973990e04</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_295541_safety">9a8f762b370223001b2503a973990ea8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">9a8f762b370223001b2503a973990ea8</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_90f1a367378223001b2503a973990e04</sys_update_name>
+        <sys_updated_by>jwdaley13</sys_updated_by>
+        <sys_updated_on>2018-12-04 18:21:42</sys_updated_on>
+        <ui_id>52f1c26b-8f2c-41fa-8b29-6f743823c7c0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=90f1a367378223001b2503a973990e04"/>
+</record_update>

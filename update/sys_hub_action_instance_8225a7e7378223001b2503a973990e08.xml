@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Set state to closed complete</comment>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Safety Approval">822567e7378223001b2503a973990ed0</flow>
+        <order>2.1</order>
+        <parent_ui_id>db25d449-f342-477e-987a-f2a632428cc0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jwdaley13</sys_created_by>
+        <sys_created_on>2018-12-04 18:21:40</sys_created_on>
+        <sys_id>8225a7e7378223001b2503a973990e08</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Safety" source="x_295541_safety">9a8f762b370223001b2503a973990ea8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">9a8f762b370223001b2503a973990ea8</sys_scope>
+        <sys_update_name>sys_hub_action_instance_8225a7e7378223001b2503a973990e08</sys_update_name>
+        <sys_updated_by>jwdaley13</sys_updated_by>
+        <sys_updated_on>2018-12-04 18:21:40</sys_updated_on>
+        <ui_id>b5cd0d4b-8010-487e-889f-2840d4cd8f0a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8225a7e7378223001b2503a973990e08"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8225a7e7378223001b2503a973990e08</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jwdaley13</sys_created_by>
+        <sys_created_on>2018-12-04 18:21:40</sys_created_on>
+        <sys_id>1a25a7e7378223001b2503a973990e0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jwdaley13</sys_updated_by>
+        <sys_updated_on>2018-12-04 18:21:40</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8225a7e7378223001b2503a973990e08</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jwdaley13</sys_created_by>
+        <sys_created_on>2018-12-04 18:21:40</sys_created_on>
+        <sys_id>da25a7e7378223001b2503a973990e0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jwdaley13</sys_updated_by>
+        <sys_updated_on>2018-12-04 18:21:40</sys_updated_on>
+        <value>x_295541_safety_issue</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8225a7e7378223001b2503a973990e08"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8225a7e7378223001b2503a973990e08</id>
+        <sys_created_by>jwdaley13</sys_created_by>
+        <sys_created_on>2018-12-04 18:21:40</sys_created_on>
+        <sys_id>d225a7e7378223001b2503a973990e0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jwdaley13</sys_updated_by>
+        <sys_updated_on>2018-12-04 18:21:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8225a7e7378223001b2503a973990e08</id>
+        <sys_created_by>jwdaley13</sys_created_by>
+        <sys_created_on>2018-12-04 18:21:40</sys_created_on>
+        <sys_id>1225a7e7378223001b2503a973990e0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jwdaley13</sys_updated_by>
+        <sys_updated_on>2018-12-04 18:21:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8225a7e7378223001b2503a973990e08</id>
+        <sys_created_by>jwdaley13</sys_created_by>
+        <sys_created_on>2018-12-04 18:21:40</sys_created_on>
+        <sys_id>9625a7e7378223001b2503a973990e0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jwdaley13</sys_updated_by>
+        <sys_updated_on>2018-12-04 18:21:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
